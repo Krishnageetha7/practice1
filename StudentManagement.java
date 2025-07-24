@@ -20,7 +20,7 @@ public class StudentManagement {
        
         JPanel inputPanel = new JPanel(new GridLayout(3, 2, 10, 10));
         JLabel nameLabel = new JLabel("Student Name:");
-        JTextField nameField = new JTextField(15);
+        JTextField nameField = new JTextField(16);
         JLabel gradeLabel = new JLabel("Grade:");
         JTextField gradeField = new JTextField(5);
         JButton addButton = new JButton("Add Student");
